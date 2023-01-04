@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="mailto:autor_strony@jego_domena?subject=temat_ankiety" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="text" name="text" size="40" maxlength="35"> <br>
+            Pole tekstowe o wielkości 40 znaków, 35 znaków dopuszczalnych, bez domyślnej odpowiedzi <br> <br>
+            <input type="text" name="text" size="40" maxlength="35" value="Odpowiedz domyslna"> <br>
+            Pole tekstowe o wielkości 40 znaków, 35 znaków dopuszczalnych, z domyślną odpowiedzią <br> <br>
+            <input type="text" name="text" size="40" maxlength="35" value="Odpowiedz domyslna" disabled> <br>
+            Pole tekstowe o wielkości 40 znaków, 35 znaków dopuszczalnych, zablokowane <br> <br>
+            <input type="password" name="text" size="25" maxlength="20"> <br>
+            Pole z hasłem o wielkości 25 znaków, 20 znaków dopuszczalnych <br> <br>
+
+            <input type="radio" name="nazwa" value="Yes">Tak 
+            <input type="radio" name="nazwa" value="No"> Nie
+            <input type="radio" name="nazwa" value="Maybe"> Nie wiem
+            <br> Pole typu radio, trzy możliwe odpowiedzi, jedna wybrana 
+
+            <br> <br>
+            <input type="radio" name="nazwa 2" value="Yes?">Tak 
+            <input type="radio" name="nazwa 2" value="No??" checked> Nie
+            <input type="radio" name="nazwa 2" value="Maybe???"> Nie wiem
+            <br> Pole typu radio, trzy możliwe odpowiedzi, z domyślną odpowiedzią
+
+            <br> <br> <br> <br> 
+            <input type="checkbox" name="nazwa 3" value="value">Tak 
+            <input type="checkbox" name="nazwa 3" value="value" checked> Nie
+            <input type="checkbox" name="nazwa 3" value="value"> Nie wiem
+            <br> Pole typu checkbox, trzy możliwe odpowiedzi, jedna domyślna
+
+            <br> <br>
+            <input type="checkbox" name="nazwa 4" value="valju">Tak 
+            <input type="checkbox" name="nazwa 4" value="valuej"> Nie
+            <input type="checkbox" name="nazwa 4" value="valley"> Nie wiem
+            <br> Pole typu checkbox, trzy możliwe odpowiedzi, żadna wybrana
+            
+            <br> <br>
+            <input type="submit" value="Submit"> <br>
+            <input type="image" src="image.png" alt="Susmit">
+
+            
+            <br> <br>
+            <input type="reset" value="Reset">
+            <input type="button" value="You have no value">
+            <br> <br> <br> <br>
+            <button> <a href="https://en.wikipedia.org/wiki/"> Wikipedia <a></button>
+            
+            <br> <br>
+
+            <input type="file" name="name">
+            <br> <br>
+
+            <select size="5">
+                <option>pierwsza możliwość</option>
+                <option>druga możliwość</option>
+                <option>trzecia możliwość</option>
+                <option>czwarta możliwość</option>
+                <option>piąta możliwość</option>
+                <option>szósta możliwość</option>
+                <option>siódma możliwość</option>
+                <option>ósma możliwość</option>
+                <option>dziewiąta możliwość</option>
+            </select> <br>
+            Lista rozwijalna, na 5 wierszy, 9 opcji, z jedną odpowiedzią
+
+            <br> <br>
+
+            <select size="9" multiple>
+                <option>pierwsza możliwość</option>
+                <option>druga możliwość</option>
+                <option>trzecia możliwość</option>
+                <option>czwarta możliwość</option>
+                <option>piąta możliwość</option>
+                <option>szósta możliwość</option>
+                <option>siódma możliwość</option>
+                <option>ósma możliwość</option>
+                <option>dziewiąta możliwość</option>
+                <option>dziesiąta możliwość</option>
+                <option>jedenasta możliwość</option>
+                <option>dwunasta możliwość</option>
+                <option>trzynasta możliwość</option>
+                <option>czternasta możliwość</option>
+                <option>pietnasta możliwość</option>
+            </select> <br>
+            lista rozwijalna, na 9 wierszy, 15 opcji, z możliwą większą ilością odpowiedzi\
+
+            <br> <br>
+
+
+            <textarea name="nazwa" cols="25" rows="25">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tellus eget nibh pretium iaculis a sed ligula. Donec volutpat tincidunt est tincidunt finibus. Integer eu arcu commodo, suscipit nisl quis, viverra metus. Quisque faucibus, enim id luctus eleifend, nunc risus vestibulum dui, eget gravida sapien arcu sit amet magna. Fusce nec risus felis. Nullam quis malesuada mi. Nulla hendrerit est id mollis consectetur. Curabitur id velit gravida, aliquam eros sit amet, convallis risus. Quisque non commodo nisl. Integer sed fringilla velit. Sed eu bibendum ipsum, nec condimentum neque.
+
+            </textarea>
+            <br> <br>
+            <textarea name="nazwa" cols="25" rows="25" readonly="readonly">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tellus eget nibh pretium iaculis a sed ligula. Donec volutpat tincidunt est tincidunt finibus. Integer eu arcu commodo, suscipit nisl quis, viverra metus. Quisque faucibus, enim id luctus eleifend, nunc risus vestibulum dui, eget gravida sapien arcu sit amet magna. Fusce nec risus felis. Nullam quis malesuada mi. Nulla hendrerit est id mollis consectetur. Curabitur id velit gravida, aliquam eros sit amet, convallis risus. Quisque non commodo nisl. Integer sed fringilla velit. Sed eu bibendum ipsum, nec condimentum neque.
+
+            </textarea>
+
+
+        </div>
+    </form>
+
+
+    <br> <br>
+
+
+    <form>
+        <fieldset> <legend> Formularz zbiorowy </legend>
+        <div>
+        <input type="text" size="40" maxlength="35"> Podaj login <br>
+        <input type="password" size="25" maxlength="20"> Podaj tajne hasło <br><br>
+        Czy lubisz HTMLa?
+        <input type="radio" name="name33" value="yes"> Tak
+        <input type="radio" name="name33" value="no"> Nie
+        <input type="radio" name="name33" value="perchance"> Być może
+        <br> <br>
+        Jakie znasz języki programowania?
+        <br> <br>
+        <input type="checkbox" name="nazwa 8" value="1" checked>C# 
+        <input type="checkbox" name="nazwa 8" value="2">C++ 
+        <input type="checkbox" name="nazwa 8" value="3">PHP 
+        <input type="checkbox" name="nazwa 8" value="4">JavaScript 
+        <input type="checkbox" name="nazwa 8" value="5" disabled>Python
+        <br> <br>
+        <select size="5" multiple>
+            <option>pierwsza możliwość</option>
+            <option>druga możliwość</option>
+            <option>trzecia możliwość</option>
+            <option>czwarta możliwość</option>
+            <option>piąta możliwość</option>
+            <option>szósta możliwość</option>
+            <option>siódma możliwość</option>
+            <option>ósma możliwość</option>
+            <option>dziewiąta możliwość</option>
+
+        </select> 
+
+        Zaznacz opcje - może być więcej
+        <br> <br>
+
+        <textarea name="nazwa" cols="50" rows="3">
+
+
+        </textarea>
+        Opisz w 200 słowach zalety HTML-a
+
+        <br> <br>
+        <input type="file" name="nope"> Dodaj plik
+
+        <br> <br>
+        <input type="reset" value="Reset">
+        <br> <br>
+        <input type="submit" value="Submit"> <br>
+        <input type="image" src="image.png" alt="Susmit">
+        </div>
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
